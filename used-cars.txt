@@ -1,0 +1,46 @@
+USED CARS
+
+id - INT - PRIMARY_KEY(NOTNULL, UNIQUE) - AUTO_INCREMENT
+model - VARCHAR(50) - NOTNULL - INDEX
+brand - VARCHAR(25) - NOTNULL
+variant - VARCHAR(25) - NULL
+body_type - VARCHAR(25) - NOTNULL
+fuel_type - VARCHAR(25) - NOTNULL
+first_registration - YEAR - NOTNULL
+price_eur - MEDIUMINT - NOTNULL
+mileage_km - MEDIUMINT - NOTNULL
+power_hp - SMALLINT - NOTNULL
+gear - VARCHAR(25) - NOTNULL
+doors_num - TINYINT - NOTNULL
+seats_num - TINYINT - NOTNULL
+body_color - VARCHAR(25) - NOTNULL
+body_paintwork - VARCHAR(25) - NULL
+interior_color - VARCHAR(25) - NOTNULL
+interior_upholstery - VARCHAR(25) - NULL
+previous_owners - TINYINT - NOTNULL
+had_accident - TINYINT - NOTNULL
+has_guarantee - TINYINT - NOTNULL
+year_guarantee - TINYINT - NULL
+euro_emission_class - VARCHAR(25) - NOTNULL
+is_vintage - TINYINT - NULL
+is_keyless - TINYINT - NULL
+is_disabled_accessible - TINYINT - NULL
+is_vat_deductible - TINYINT - NULL
+has_full_led_headlights - TINYINT - NULL
+has_bluetooth - TINYINT - NULL
+has_touch_screen - TINYINT - NULL
+has_electrical_side_mirrors - TINYINT - NULL
+has_parking_assist_system - TINYINT - NULL
+has_seat_heating - TINYINT - NULL
+has_cruise_control - TINYINT - NULL
+has_air_conditioning - TINYINT - NULL
+has_alarm_system - TINYINT - NULL
+has_alloy_wheels - TINYINT - NULL
+has_automatic_climate_control - TINYINT - NULL
+has_emergency_brake_assistant - TINYINT - NULL
+has_emergency_tyre - TINYINT - NULL
+has_isofix - TINYINT - NULL
+has_side_airbag - TINYINT - NULL
+has_start_stop_system - TINYINT - NULL
+has_winter_tyres - TINYINT - NULL
+has_usb - TINYINT - NULL
